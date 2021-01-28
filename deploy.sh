@@ -9,6 +9,7 @@ echo "ENVIRONMENT_DIR: The location of your operations repo code for your plugin
 echo "ENVIRONMENT_DIR=${ENVIRONMENT_DIR}"
 echo ""
 echo "Lastly, all the options defined in your plugin's bitops.schema.yaml. These values are overridden by bitops.config.yaml files in operations repos"
-echo "BITOPS_MY_FAV_COLOR=${BITOPS_MY_FAV_COLOR}"
+echo "MY_FAV_COLOR=${MY_FAV_COLOR}"
+echo "MY_NAME=${MY_NAME}"
 
-bash $PLUGIN_ROOT/print-fav-color.sh "${BITOPS_MY_FAV_COLOR}"
+bash $PLUGIN_ROOT/print-fav-color.sh "${MY_NAME}" "${MY_FAV_COLOR}"

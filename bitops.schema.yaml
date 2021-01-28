@@ -4,7 +4,11 @@ my-fav-color:
     options:
       type: object
       properties:
-        dryrun:
+        name:
           type: string
-          export_env: BITOPS_MY_FAV_COLOR
+          export_env: MY_NAME
+          default: world
+        color:
+          type: string
+          export_env: MY_FAV_COLOR
           default: blue
