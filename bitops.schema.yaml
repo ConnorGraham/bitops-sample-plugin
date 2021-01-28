@@ -1,0 +1,10 @@
+my-fav-color:
+  type: object
+  properties:
+    options:
+      type: object
+      properties:
+        dryrun:
+          type: string
+          export_env: BITOPS_MY_FAV_COLOR
+          default: blue
