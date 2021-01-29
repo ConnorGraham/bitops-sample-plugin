@@ -8,8 +8,6 @@ my-fav-color:
           type: string
           parameter: version
           export_env: VERSION_CLI_FLAG
-  type: object
-  properties:
     options:
       type: object
       properties:
