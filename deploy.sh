@@ -19,6 +19,4 @@ echo "CLI_OPTIONS=${CLI_OPTIONS}"
 
 
 echo "Lets test it out!"
-ls -la $PLUGIN_DIR
-ls -la $ENVIRONMENT_DIR
 bash $PLUGIN_DIR/scripts/print-fav-color.sh "${MY_NAME}" "${MY_FAV_COLOR}"
