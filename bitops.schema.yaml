@@ -1,6 +1,15 @@
 my-fav-color:
   type: object
   properties:
+    cli:
+      type: object
+      properties:
+        version:
+          type: string
+          parameter: version
+          export_env: VERSION_CLI_FLAG
+  type: object
+  properties:
     options:
       type: object
       properties:
